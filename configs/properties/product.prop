@@ -21,3 +21,6 @@ ro.iorapd.enable=false
 iorapd.perfetto.enable=false
 iorapd.readahead.enable=false
 persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+
+# Radio
+persist.sys.radio.force_lte_ca=true
