@@ -27,3 +27,7 @@ persist.sys.radio.force_lte_ca=true
 
 # Phantom process monitoring
 sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
+# Camera
+persist.vendor.camera.privapp.list=org.lineageos.aperture,com.android.camera
+vendor.camera.aux.packagelist=org.lineageos.aperture,com.android.camera
