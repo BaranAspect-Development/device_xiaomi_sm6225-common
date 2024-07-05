@@ -13,6 +13,11 @@ persist.debug.ftrace_events_disable=Yes
 # Fingerprint
 sys.fp.miui.token=0
 
+# IMS & Volte
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+
 # Fwk-Detect
 ro.vendor.qti.va_aosp.support=1
 
