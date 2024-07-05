@@ -327,3 +327,10 @@ ro.vendor.qti.cgroup_follow.enable=true
 persist.vendor.qti.inputopts.enable=true
 persist.vendor.qti.inputopts.movetouchslop=0.6
 ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
+# Battery Backup
+ro.config.hw_power_extreme_saving=1
+ro.config.hw_power_saving=1
+ro.ril.power_collapse=1
+ro.ril.disable.power.collapse=0
+pm.sleep_mode=1
