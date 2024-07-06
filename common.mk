@@ -473,6 +473,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libgrpc++_unsecure.vendor
 
+# Preopt critical applications
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SettingsGoogle \
+    SystemUIGoogle
+
 # QMI
 PRODUCT_PACKAGES += \
     libcurl.vendor \
