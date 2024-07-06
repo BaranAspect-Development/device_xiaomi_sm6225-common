@@ -356,6 +356,10 @@ on property:sys.volume.stream.music.device.bluetooth=*
 on property:sys.volume.stream.bluetoothsco=*
     setprop vendor.volume.stream.bluetoothsco ${sys.volume.stream.bluetoothsco}
 
+on property:vendor.post_boot.parsed=1
+    # Disable process_reclaim
+    write /sys/module/process_reclaim/parameters/enable_process_reclaim 0
+
 service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     override
     class hal
