@@ -71,6 +71,9 @@ function blob_fixup() {
             ;;
         vendor/etc/init/hw/init.qcom.usb.rc)
             sed -i 's/on charger/on property:init.svc.vendor.charger=running/g' "${2}"
+            ;;
+        vendor/etc/qcril_database/upgrade/config/6.0_config.sql)
+            sed -i '/persist.vendor.radio.redir_party_num/ s/true/false/g' "${2}"
             ;;    
     esac
 }
