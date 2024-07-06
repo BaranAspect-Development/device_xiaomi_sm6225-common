@@ -341,4 +341,7 @@
     <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">1000</integer>
 
+    <!-- Device model (Build.MODEL) to spoof for netflix -->
+    <string name="config_netflixSpoofModel" translatable="false">23021RAA2Y</string>
+
 </resources>
