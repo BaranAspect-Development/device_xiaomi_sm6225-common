@@ -178,6 +178,7 @@ dalvik.vm.dex2oat-threads=8
 drm.service.enabled=true
 
 # Display
+debug.sf.enable_transaction_tracing=false
 debug.egl.hw=0
 debug.mdpcomp.logs=0
 debug.sf.enable_advanced_sf_phase_offset=1
