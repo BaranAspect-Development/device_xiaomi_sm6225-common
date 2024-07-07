@@ -42,3 +42,7 @@
 
 # HALS
 /vendor/bin/hw/vendor\.lineage\.livedisplay@2\.0-service\.topaz    u:object_r:hal_lineage_livedisplay_qti_exec:s0
+
+# A/B Partition
+/dev/block/platform/soc/1d84000.ufshc/by-name/utags          u:object_r:vendor_utags_block_device:s0
+/dev/block/platform/soc/1d84000.ufshc/by-name/utagsBackup    u:object_r:vendor_utags_block_device:s0

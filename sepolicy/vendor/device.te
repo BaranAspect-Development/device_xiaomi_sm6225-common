@@ -1,2 +1,5 @@
 # Fingerprint
 type vendor_fingerprint_device, dev_type;
+
+# Utags
+type vendor_utags_block_device, dev_type;
