@@ -53,6 +53,8 @@ on early-init
     write /proc/sys/walt/input_boost/input_boost_ms 200
     # Disable vblank IRQ immediately after turning off
     write /sys/module/drm/parameters/vblankoffdelay -1
+    # Configure uclamp
+    write /dev/cpuctl/top-app/cpu.uclamp.latency_sensitive 1
 
 on property:vendor.post_boot.parsed=1
     write /dev/cpuset/background/cpus 0-1
