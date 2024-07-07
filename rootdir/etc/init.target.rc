@@ -45,6 +45,10 @@ on early-init
     # Start audio adsp rpc daemon at early init stage
     start vendor.audioadsprpcd_audiopd
 
+on early-init
+    # Disable multiple kswapd threads
+    write /proc/sys/vm/kswapd_threads 1
+
 on init
     write /dev/stune/foreground/schedtune.sched_boost_no_override 1
     write /dev/stune/top-app/schedtune.sched_boost_no_override 1
