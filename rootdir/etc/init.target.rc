@@ -54,6 +54,9 @@ on early-init
     # Disable vblank IRQ immediately after turning off
     write /sys/module/drm/parameters/vblankoffdelay -1
 
+on property:vendor.post_boot.parsed=1
+    write /dev/cpuset/background/cpus 0-1
+
 on init
     write /dev/stune/foreground/schedtune.sched_boost_no_override 1
     write /dev/stune/top-app/schedtune.sched_boost_no_override 1
