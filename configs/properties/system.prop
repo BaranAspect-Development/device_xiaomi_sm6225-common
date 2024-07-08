@@ -75,3 +75,7 @@ persist.vendor.ssr.restart_level=ALL_ENABLE
 ro.hardware.wlan.dbs=0
 ro.hardware.wlan.mimo=0
 ro.hardware.wlan.vendor=qcom
+
+# Deep Sleep
+pm.sleep_mode=1
+vendor.post_boot.parsed=1s
