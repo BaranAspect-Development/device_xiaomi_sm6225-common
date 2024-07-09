@@ -48,3 +48,6 @@ genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/0-00/1c40000.qcom,
 # Vibrator
 genfscon sysfs /devices/platform/soc/[a-f0-9]+.qcom,spmi/spmi-0/spmi0-0[0-9]/[a-f0-9]+.qcom,spmi:qcom,[a-z0-9]+@[0-9]:qcom,haptics@c000/leds/vibrator(/.*)?   u:object_r:sysfs_leds:s0
 genfscon sysfs /devices/platform/soc/soc:vibrator_gpio/leds/vibrator u:object_r:sysfs_leds:s0
+
+# Touchpanel
+genfscon sysfs /devices/virtual/touch/touch_dev/        u:object_r:sysfs_touchpanel:s0
