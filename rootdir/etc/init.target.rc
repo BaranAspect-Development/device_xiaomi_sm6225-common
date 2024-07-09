@@ -56,6 +56,8 @@ on early-init
     write /sys/module/drm/parameters/vblankoffdelay -1
     # Configure uclamp
     write /dev/cpuctl/top-app/cpu.uclamp.latency_sensitive 1
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
 
 on property:vendor.post_boot.parsed=1
     write /dev/cpuset/background/cpus 0-1
