@@ -156,6 +156,7 @@ ro.bluetooth.a2dp_offload.supported=true
 # Camera
 camera.disable_zsl_mode=1
 sys.haptic.ignoreWhenCamera=true
+persist.vendor.camera.perflock.enable=0
 
 # Charger
 persist.vendor.quick.charge=1
