@@ -118,3 +118,7 @@ persist.log.tag.WifiHAL=E
 persist.log.tag.WindowManager=E
 persist.log.tag.WindowManagerShell=E
 persist.log.tag.android.vending=E
+
+# LMKD
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=15
