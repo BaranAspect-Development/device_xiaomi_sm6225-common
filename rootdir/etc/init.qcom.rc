@@ -463,6 +463,8 @@ service vendor.ss_ramdump /vendor/bin/subsystem_ramdump 3
     user system
     group system root media_rw everybody
     capabilities NET_ADMIN
+    # setting RLIMIT_RTPRIO allows binder RT priority inheritance
+    rlimit rtprio 10 10
     ioprio rt 4
     disabled
 
