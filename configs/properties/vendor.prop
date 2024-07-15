@@ -252,6 +252,7 @@ renderthread.skia.reduceopstasksplitting=true
 # HWUI
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
+debug.sdm.support_writeback=0
 
 # Displayfeature
 ro.vendor.all_modes.colorpick_adjust=true
