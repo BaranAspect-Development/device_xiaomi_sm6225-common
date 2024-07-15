@@ -387,6 +387,7 @@ on property:sys.volume.stream.bluetoothsco=*
 on property:vendor.post_boot.parsed=1
     # Disable process_reclaim
     write /sys/module/process_reclaim/parameters/enable_process_reclaim 0
+    write /proc/sys/vm/swappiness 180
 
 service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     override
