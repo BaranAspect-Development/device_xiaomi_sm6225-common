@@ -210,6 +210,7 @@ debug.sf.treat_170m_as_sRGB=1
 debug.sf.enable_gl_backpressure=1
 persist.sys.sf.color_mode=1
 persist.sys.sf.color_saturation=1.1
+ro.config.avoid_gfx_accel=true
 persist.sys.sf.native_mode=2
 debug.sf.defer_refresh_rate_when_off=1
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
