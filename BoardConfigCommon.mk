@@ -194,6 +194,9 @@ SOONG_CONFIG_xiaomiSm6225Vars += \
 SOONG_CONFIG_xiaomiSm6225Vars_livedisplay_support_anti_flicker ?= true
 SOONG_CONFIG_xiaomiSm6225Vars_livedisplay_support_sunlight_enhancement ?= true
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
