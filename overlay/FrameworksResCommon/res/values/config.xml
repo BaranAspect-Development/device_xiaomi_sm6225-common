@@ -161,7 +161,7 @@
 
          Refer to power.h for details.
     -->
-    <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
