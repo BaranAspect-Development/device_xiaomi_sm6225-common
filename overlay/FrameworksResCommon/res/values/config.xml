@@ -362,4 +362,5 @@
          fading edges is prohibitively expensive on most GPUs. -->
     <bool name="config_ui_enableFadingMarquee">true</bool>
 
-</resources>
+    <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
