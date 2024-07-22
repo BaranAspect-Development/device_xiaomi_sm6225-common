@@ -80,6 +80,9 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/configs/config.fs
 
+# HWUI
+USE_OPENGL_RENDERER := true
+
 # HWUI For Performance
 HWUI_COMPILE_FOR_PERF := true
 
