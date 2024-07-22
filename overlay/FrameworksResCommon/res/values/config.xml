@@ -367,4 +367,7 @@
         <item>activity_manager/use_compaction=true</item>
     </string-array>
 
+    <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
+
 </resources>
