@@ -185,7 +185,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@3.0.vendor \
     vendor.qti.hardware.display.mapper@4.0.vendor \
     vendor.lineage.livedisplay@2.0-service-sdm \
-    vendor.lineage.livedisplay@2.0-service.topaz \
+    vendor.lineage.livedisplay@2.1-service.sm6225 \
     vendor.qti.hardware.display.mapperextensions@1.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.1.vendor 
 
@@ -315,7 +315,6 @@ endif
 # Init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    fstab.zram \
     fstab.qcom.vendor_ramdisk \
     init.qcom.rc \
     init.qti.kernel.rc \
