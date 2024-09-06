@@ -195,16 +195,10 @@ VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 include device/xiaomi/sepolicy/SEPolicy.mk
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/dynamic
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
 # Soong
 SOONG_CONFIG_NAMESPACES += xiaomiSm6225Vars
-SOONG_CONFIG_xiaomiSm6225Vars += \
-    livedisplay_support_anti_flicker \
-    livedisplay_support_sunlight_enhancement
-SOONG_CONFIG_xiaomiSm6225Vars_livedisplay_support_anti_flicker ?= true
-SOONG_CONFIG_xiaomiSm6225Vars_livedisplay_support_sunlight_enhancement ?= true
 
 # Camera
 MALLOC_SVELTE := true
