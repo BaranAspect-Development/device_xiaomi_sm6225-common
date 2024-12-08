@@ -249,6 +249,7 @@ vendor.display.vds_allow_hwc=1
 vendor.gralloc.enable_fb_ubwc=1
 vendor.gralloc.disable_ubwc=0
 vendor.gralloc.secure_preview_buffer_format=420_sp
+debug.sf.frame_rate_multiple_threshold=60
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
