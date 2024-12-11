@@ -305,6 +305,9 @@ ro.hardware.keystore_desede=true
 # Log
 ro.control_privapp_permissions=enforce
 
+# Logcat spam
+persist.log.tag.vendor.qti.bluetooth@1.0-ibs_handler=S
+
 # Incremental FS
 ro.incremental.enable=true
 
